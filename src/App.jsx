@@ -20,7 +20,7 @@ function App() {
              <div key={q.id} className="p-2  border-b-2 last:border-b-0 border-gray-100">
                 <div onClick={()=>handleSelected(q.id)} className="flex mb-2 justify-between items-cente">
                   <h4 className="font-bold text-sm">{q.quest}</h4>
-                 {q.id == selected ?  <img src="/public/images/icon-minus.svg" alt="" /> :
+                 {q.id == selected ?  <img src="/images/icon-minus.svg" alt="" /> :
                   <img src="/public/images/icon-plus.svg" alt="" /> }
                 </div>
 
