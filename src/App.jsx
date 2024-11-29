@@ -21,7 +21,7 @@ function App() {
                 <div onClick={()=>handleSelected(q.id)} className="flex mb-2 justify-between items-cente">
                   <h4 className="font-bold text-sm">{q.quest}</h4>
                  {q.id == selected ?  <img src="/images/icon-minus.svg" alt="" /> :
-                  <img src="/public/images/icon-plus.svg" alt="" /> }
+                  <img src="/images/icon-plus.svg" alt="" /> }
                 </div>
 
                  <p className={`text-sm transition-all overflow-hidden ease-in-out duration-500 ${q.id == selected ? 'max-h-40' : 'max-h-0'}`}>
